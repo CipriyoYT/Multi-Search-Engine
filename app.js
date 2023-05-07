@@ -1,5 +1,11 @@
 console.log("WAIT!!!!");
-console.log("This is copyright Palayogo HTML for Cipriyo");
+console.log("This is copyright Palayogo HTML for Cipriyo!!!!");
+console.log("WAIT!!!!");
+console.log("This is copyright Palayogo HTML for Cipriyo!!!!");
+console.log("WAIT!!!!");
+console.log("This is copyright Palayogo HTML for Cipriyo!!!!");
+console.log("WAIT!!!!");
+console.log("This is copyright Palayogo HTML for Cipriyo!!!!");
 document.getElementById("search-form").addEventListener("submit", function(event) {
 			event.preventDefault();
 			var searchTerm = document.getElementById("search-term").value;
