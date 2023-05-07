@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>The Palayogo seanch machine | Recherche sur Google ou Bing</title>
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			background-color: #f2f2f2;
+		}
+		.container {
+			margin: 0 auto;
+			max-width: 600px;
+			padding: 20px;
+			background-color: #fff;
+			box-shadow: 0 2px 5px rgba(0,0,0,.1);
+			border-radius: 5px;
+		}
+		h1 {
+			margin-top: 0;
+		}
+		input[type="text"] {
+			width: 80%;
+			padding: 12px 20px;
+			margin: 8px 0;
+			box-sizing: border-box;
+			border: 2px solid #ccc;
+			border-radius: 4px;
+			background-color: #f8f8f8;
+			font-size: 16px;
+		}
+		button[type="submit"] {
+			background-color: #4CAF50;
+			color: white;
+			padding: 14px 20px;
+			margin: 8px 0;
+			border: none;
+			border-radius: 4px;
+			cursor: pointer;
+			font-size: 16px;
+		}
+		button[type="submit"]:hover {
+			background-color: #45a049;
+		}
+		label {
+			font-size: 16px;
+			font-weight: bold;
+			display: block;
+			margin-bottom: 8px;
+		}
+		input[type="radio"] {
+			display: inline-block;
+			margin-right: 8px;
+		}	
+		button[type="gooopen"] {
+			background-color: #ffffff;
+		}	
+		button[type="gooopen"] {
+			background-color: #ffffff;
+			color: white;
+			padding: 14px 20px;
+			margin: 8px 0;
+			border: none;
+			border-radius: 4px;
+			cursor: pointer;
+			font-size: 16px;
+		}	
+	</style>
+</head>
+<body>
+	<div class="container">
+		<h1>The Palayogo search machine Recherche sur Google ou Bing</h1>
+		<form id="search-form">
+			<label for="search-term">Entrez votre recherche :</label>
+			<input type="text" id="search-term" name="q" placeholder="Recherche...">
+			<br>
+			<label>Choisissez un moteur de recherche :</label>
+			<label for="google-radio">
+				<input type="radio" id="google-radio" name="engine" value="google" checked> Google
+			</label>
+			<label for="bing-radio">
+				<input type="radio" id="bing-radio" name="engine" value="bing"> Bing
+			</label>
+			<label for="youtube-radio">
+				<input type="radio" id="youtube-radio" name="engine" value="youtube"> Youtube
+			</label>
+			<label for="bing-video-radio">
+				<input type="radio" id="bing-video-radio" name="engine" value="bingvideo"> Bing Video
+			</label>
+			<label for="ecosia-radio">
+				<input type="radio" id="ecosia-radio" name="engine" value="ecosia"> Écosia (pour planter des arbre)
+			</label>
+			<label for="URL">
+				<input type="radio" id="custom-radio" name="engine" value="URL"> URL (tapez votre URL (avec le https://) dans le champ de recherche)
+			</label>
+			<br>
+			<button type="submit">Rechercher</button>
+		</form>
+	</div>
+
+	<script>
+		document.getElementById("search-form").addEventListener("submit", function(event) {
+			event.preventDefault();
+			var searchTerm = document.getElementById("search-term").value;
+			var engine = document.querySelector('input[name="engine"]:checked').value;
+			if (engine === "google") {
+				window.open('https://www.google.com/search?q=' + searchTerm, "_blank");
+				location.reload();
+			} else if (engine === "bing") {
+				window.open('https://www.bing.com/search?q=' + searchTerm, "_blank");
+				location.reload();
+			} else if (engine === "youtube") {
+				window.open('https://www.youtube.com/results?search_query=' + searchTerm, "_blank");
+				location.reload();
+			} else if (engine === "bingvideo") {
+				window.open('https://www.bing.com/videos/search?q=' + searchTerm, "_blank");
+				location.reload();
+			} else if (engine === "ecosia") {
+				window.open('https://www.ecosia.org/search?method=index&q=' + searchTerm, "_blank");
+				location.reload();
+			} else if (engine === "URL") {
+				window.open(searchTerm, "_blank");
+				location.reload();
+			}
+		});
+	</script>
+</body>
+</html>
