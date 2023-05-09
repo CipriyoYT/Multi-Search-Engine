@@ -10,8 +10,8 @@ document.getElementById("search-form").addEventListener("submit", function(event
 			event.preventDefault();
 			var engine = document.querySelector('input[name="engine"]:checked').value;
 			if (engine === "fr") {
-				window.location.href = "https://cipriyo.github.io/Multi-Search-Engine/index-fr"
+				window.location.href = "https://cipriyo.github.io/Multi-Search-Engine/fr"
 			} else if (engine === "en") {
-				window.location.href = "https://cipriyo.github.io/Multi-Search-Engine/index-en"
+				window.location.href = "https://cipriyo.github.io/Multi-Search-Engine/en"
 			}
 		});
