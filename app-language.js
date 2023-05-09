@@ -8,7 +8,6 @@ console.log("WAIT!!!!");
 console.log("This is copyright Palayogo HTML for Cipriyo!!!!");
 document.getElementById("search-form").addEventListener("submit", function(event) {
 			event.preventDefault();
-			var searchTerm = document.getElementById("search-term").value;
 			var engine = document.querySelector('input[name="engine"]:checked').value;
 			if (engine === "fr") {
 				window.location.href = "https://cipriyo.github.io/Multi-Search-Engine/index-fr"
