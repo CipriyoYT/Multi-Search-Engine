@@ -1,3 +1,10 @@
+BEFORE THE LICENCE I HAVE SOMETHING TO SAY:
+  I WORKED 3 MONTH ON THIS BECAUSE I AM A LITTLE DEV, SO PLEASE USE MY WEBSITE : https://cipriyo.github.io/Multi-Search-Engine/ ;
+  AND DON'T COPY MY CODE TO USE IT :'(
+ 
+LAST THING : ON THE LICENCE IS SAY EVERYBODY CAN USE MY CODE IF YOU GIVE ME CREDIT BUT ME I DON'T WANT THAT JUST DON'T USE MY CODE PLEASE
+(and if you say why I don't edit the licence it's because if I edit it I am not protected)
+
 MIT License
 
 Copyright (c) 2023 Cipriyo
