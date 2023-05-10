@@ -1,3 +1,7 @@
+BEFORE THE LICENCE I HAVE SOMETHING TO SAY:
+  I WORKED 3 MONTH ON THIS BECAUSE I AM A LITTLE DEV, SO PLEASE USE MY WEBSITE : https://cipriyo.github.io/Multi-Search-Engine/ |
+  AND DON'T COPY MY CODE TO USE IT :'(
+
 MIT License
 
 Copyright (c) 2023 Cipriyo
