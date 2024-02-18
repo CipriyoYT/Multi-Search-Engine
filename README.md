@@ -1,5 +1,5 @@
 # Multi-Search-Engine (!!!Please read all this text!!!)
-Il s'agit d'un moteur de recherche multiple qui peut vous ouvrir des recherches Google, Bing, Youtube... (Ceci est open-source, copyright et en version bêta).
+Il s'agit d'un moteur de recherche multiple qui peut vous ouvrir des recherches Google, Bing, Youtube... (Ceci est open-source, copyright et en version bêta (des changements peuvent arrivés)).
 Le site : https://cipriyo.github.io/Multi-Search-Engine/ .
 
 Crédit : The multi search engine, 
